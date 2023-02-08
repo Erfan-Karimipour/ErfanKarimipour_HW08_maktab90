@@ -1,0 +1,171 @@
+.bg-gray {
+    background-color: #333333;
+}
+
+.color-white {
+    color: #fafafa;
+}
+
+.border-gray {
+    border: 1px solid rgba(155, 155, 155, 0.473);
+    padding: .5rem 1rem;
+    transition: all .2s;
+}
+
+.border-gray:hover {
+    background-color: #fafafa;
+    color: #333333;
+    transition: all .2s;
+}
+
+.p-6 {
+    padding: 6.5rem;
+}
+
+.headercontainer {
+    width: 50vw;
+}
+
+.color-gray {
+    color: #333333;
+}
+
+.center {
+    justify-content: space-between;
+}
+
+.width-50 {
+    width: 50%;
+    margin: 0px auto;
+}
+
+.section2card {
+    border: none;
+}
+
+.section4left {
+    color: #fafafa;
+    background-color: #2690d4;
+}
+
+.section4right {
+    background-color: #333333;
+    color: #fafafa;
+}
+
+.marginauto {
+    margin: auto 0px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+@media (980px<width<1400px) {
+    .cards {
+        width: 75%;
+    }
+}
+
+@media (800px<width<980px) {
+    .cards {
+        width: 90%;
+    }
+}
+
+@media(600px<width<800px) {
+    .cards {
+        display: block;
+    }
+
+    .section2card {
+        margin-top: 1rem;
+    }
+
+    .header {
+        padding: 3rem 0rem;
+    }
+}
+
+@media(400px<width<600px) {
+    .cards {
+        display: block;
+    }
+
+    .section2card {
+        margin-top: 1rem;
+    }
+
+    .header {
+        padding: 3rem 0rem;
+    }
+
+    .sec3 {
+        margin: 1rem auto;
+        width: 80%;
+    }
+
+    .sec4 {
+        display: block;
+    }
+
+    .sec4shits {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .sec2 {
+        padding: 0px;
+        width: 90%;
+    }
+
+    .sec2shit {
+        width: 100%;
+    }
+
+    .sec4shits {
+        padding: 0px;
+        margin: 0px;
+    }
+}
+
+@media(000px<width<400px) {
+    .cards {
+        display: block;
+    }
+
+    .section2card {
+        margin-top: 1rem;
+    }
+
+    .header {
+        padding: 3rem 0rem;
+    }
+
+    .sec2 {
+        padding: 0px;
+        width: 90%;
+    }
+
+    .sec3 {
+        margin: 1rem auto;
+        width: 80%;
+    }
+
+    .sec4 {
+        display: block;
+    }
+
+    .sec2shit {
+        width: 100%;
+    }
+
+    .sec4shits {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    footer {
+        font-size: .7rem;
+    }
+}
