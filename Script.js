@@ -1,25 +1,19 @@
 `use strict`
 
-function bg(createdshit) {
-    createdshit.style.backgroundColor = `purple`;
-}
-function color(createdshit) {
-    createdshit.style.color = `red`;
-}
-function fonts(createdshit) {
-    createdshit.style.fontSize = `5rem`
-}
-
-function creatoroftheworld(tagname, payback) {
-
-    let createdshit = document.createElement(`${tagname}`);
-    createdshit.innerHTML = `The ${tagname} has bin created ✋`;
-    document.body.append(createdshit);
-    switch (payback) {
-        case `background`: bg(createdshit);
-        case `color`: color(createdshit);
-        case `font size`: fonts(createdshit);
+function counter() {
+    let counter = 0;
+    return function (num) {
+        if (typeof (num) == `number`) counter += num;
+        return counter;
     }
 }
 
-creatoroftheworld(prompt(), prompt());
+const dotheshit = counter();
+
+console.log(dotheshit());
+console.log(dotheshit());
+console.log(dotheshit(1));
+console.log(dotheshit());
+console.log(dotheshit(3));
+console.log(dotheshit(7));
+console.log(dotheshit(-5));
